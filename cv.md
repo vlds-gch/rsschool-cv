@@ -21,3 +21,16 @@ After Covid outbreak I returned to my homecity and lived a tranquil life of a se
     }
 });
 
+## Experience
+- [RSS_CV](https://github.com/vlds-gch/rsschool-cv.git)
+
+## Education
+1. Bachelor degree - International trade + interpretation, ISU 2018
+2. Courses:
+    * RS Scholl "JS/Frontent stage 0"
+    * w3schools
+    * HTML academy
+
+## Languges
+English - Upper Intermidiate (B2)
+Chinese - HSK 5 (2017)
