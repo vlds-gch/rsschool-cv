@@ -1,1 +1,1 @@
-https://github.com/vlds-gch/rsschool-cv.git
+https://vlds-gch.github.io/rsschool-cv/
