@@ -4,9 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Wow! Take a look at that CV!">
+    <title>Vladislav`s CV</title>
+    <link rel="icon" href="RSS/rs_school/cv-img/photoeditorsdk-export-_2_.DPI_300.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="file:///C:/Users/Vik/Desktop/my%20documents/фото%20на%20документы/photoeditorsdk-export-_2_.DPI_300.png" alt="vs">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-link" href="#about">About me</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#contact">Contact me</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#code-example">Code example</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#edu">Education</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <img class="img"
+            src="file:///C:/Users/Vik/Desktop/клац%20клац%20клац/RSS/rs_school/cv-img/New%20Composition_2022-06-14%2016-23-55.jpg" 
+            alt="my photo"
+            width="250"
+            height="333"
+            >
+        <div class="name">
+            <h1>Vladislav Savoskin</h1>
+            <p class="position">Future Junior Frontend developer</p>
+        </div>
+        
+        <div class="about">
+            <h2 class="section-title" id="about">About me</h2>
+            <p class="about-text">
+                Graduated as an interpreter from/to Chinese I worked several years at international trade company. Business trips and life on-the-go made me flexible and adaptive to fast-changing environment. It was a great place to become a fast learner - new people, cities and projects stepped one after another. After Covid outbreak I returned to my hometown and lived a tranquil life of a self-employed tour-guide until I faced a necessity of relocation. So now I work hard to make the skills list below look more content.
+            </p>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="section">
+        <h2 class="section-title" id="contact">Contact me</h2>
+        <div class="content">
+            <ul class="list main">
+                <li>E-mail: <a class="link" href="mailto:vss97@yandex.ru">vss97@yandex.ru</a></li>
+                <li>Tel: +79994233079 (Telegram, Whatsapp)</li>
+                <li>Github: <a class="link" href="https://github.com/vlds-gch">vlds-gch</a></li>
+            </ul>
+        </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" id="skills">Skills</h2>
+            <div class="content">
+                <ul class="list main right">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" id="code-example">Code example</h2>
+            <pre class="code">
+                <code>
+                    button.addEventListener('click', function () {
+                        if (randomElement.text.length > 35) {
+                            advice.style.fontSize = '25px';
+                        } else {
+                            advice.style.fontSize = '30px';
+                        }
+                    });
+                </code>
+            </pre>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" id="projects">Projects</h2>
+            <div>
+                <ul class="list main right">
+                    <li><a class="link" href="https://github.com/vlds-gch/rsschool-cv.git">RSS CV</a></li>
+                    <li>There will be more soon!</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" id="edu">Education</h2>
+            <div>
+                <ul class="list main">
+                    <li>Bachelor`s degree - International trade + interpretation, ISU 2018</li>
+                    <li>Courses:
+                        <ul class="list main">
+                            <li>RS Scholl "JS/Frontent stage 0"</li>
+                            <li>Code Basics HTML</li>
+                            <li>Code Basics CSS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title" id="languages">Languages</h2>
+            <div>
+                <ul class="list main right">
+                    <li>English - B2 (Upper-Intermidiate)</li>
+                    <li>Chinese - HSK5 (2017)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-link" href="https://github.com/vlds-gch">vlds-gch</a>
+        <p class="year">2022</p>
+        <a href="https://rs.school/js-stage0/" target="_blank"><img class="logo"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="RS School logo"
+            width="100"
+            >
+        </a>
+    </footer>
 </body>
 </html>
