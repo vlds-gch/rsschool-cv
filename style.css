@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body, h1, h2, div, p, a, pre, code, section {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.nav-list-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+}
+
+.img {
+    margin: 25px 70px;
+}
+
+.name {
+    float: right;
+    font-size: 36px;
+    margin-top: 150px;
+    margin-right: 37%;
+}
+
+.position {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-decoration: overline 2px;
+    line-height: 30px;
+}
+
+.list {
+    list-style: none;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 26px;
+    font-variant: small-caps;
+    margin: 10px 0px;
+}
+
+.about-text {
+    padding: 10px 70px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(120deg, #96e6a1 0%, #d4fc79 100%);
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.list.main {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.code {
+    margin: 0px 30px;
+    font-size: 14px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #96e6a1;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 6px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.year {
+    text-align: center;
+    margin-top: 6px;
+}
